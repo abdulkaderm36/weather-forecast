@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+}
+
+img,
+i {
+  pointer-events: none;
+}
+
+.weather-card {
+  transition: all 0.3s ease;
+}
+
+.weather-card:hover {
+  transform: scale(1.05);
+}
+
+.weather-card.active {
+  transform: scale(1.08);
+  border: solid 1px orange;
+}
+
+.card-header.active {
+  height: 50px !important;
+}
